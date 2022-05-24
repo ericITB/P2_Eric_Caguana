@@ -1486,7 +1486,7 @@ section,
 .slide-bottom {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end; }
+           }
 
 /*== 5.1. Mini container width:50%
 Aligned items [class*="content-"]=== */
@@ -1886,6 +1886,46 @@ About, Philosophy...
 .containerSwitches > img{
     width: 55%;
     height: 55%;
+}
+
+.pruebas{
+background: grey;
+}
+.finalPage{
+    height: 50%;
+    width: 100%;
+}
+.finalPage > strong{
+        background: #8888;
+        font-size: 5.2em;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 58%;
+        transform: translateX(-50%) translateY(-50%);
+        color: white;
+}
+
+.styleEnd{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 16ch;
+    animation: typing 2.5s steps(16), blink .4s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
 /*=================================================
 6.4 Block Numbers - <ul class="flexblock metrics">
