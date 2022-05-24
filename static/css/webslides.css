@@ -862,6 +862,11 @@ h4 svg {
     color: white;
 }
 
+.backgroundCover{
+    background: #8888;
+    width: 55%;
+}
+
 h1 {
   font-size: 4rem;
   line-height: 5.6rem; }
@@ -1754,7 +1759,7 @@ footer .column h3 {
 
 .content-right .flexblock.features li,
 .content-left .flexblock.features li {
-  width: 46%; }
+  width: 80%; }
 
 /*====================================================================
 6.1 Features <ul class="flexblock features">
@@ -1783,8 +1788,7 @@ footer .column h3 {
   line-height: 1;
   margin: 0; }
 
-.flexblock.features li img {
-  width: 6.4rem; }
+
 
 .flexblock.features li span sup {
   font-size: 3rem; }
@@ -1872,6 +1876,18 @@ About, Philosophy...
     top: 60px;
     width: 0; } }
 
+
+
+.containerSwitches{
+     height: 50%;
+     width: 100%;
+     text-align: center;
+}
+
+.containerSwitches > img{
+    max-width: 80%;
+    max-height: 80%;
+}
 /*=================================================
 6.4 Block Numbers - <ul class="flexblock metrics">
 =================================================== */
