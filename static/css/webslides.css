@@ -1795,8 +1795,7 @@ footer .column h3 {
 
 @media (min-width: 1200px) {
   .flexblock.features li span,
-  .flexblock.features li svg,
-  .flexblock.features li img {
+  .flexblock.features li svg {
     float: left;
     margin-right: .8rem; } }
 
@@ -1880,13 +1879,13 @@ About, Philosophy...
 
 .containerSwitches{
      height: 50%;
-     width: 100%;
+     width: 90%;
      text-align: center;
 }
 
 .containerSwitches > img{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 40%;
+    max-height: 40%;
 }
 /*=================================================
 6.4 Block Numbers - <ul class="flexblock metrics">
