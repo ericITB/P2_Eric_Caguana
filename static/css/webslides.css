@@ -1884,8 +1884,8 @@ About, Philosophy...
 }
 
 .containerSwitches > img{
-    max-width: 40%;
-    max-height: 40%;
+    width: 65%;
+    height: 65%;
 }
 /*=================================================
 6.4 Block Numbers - <ul class="flexblock metrics">
